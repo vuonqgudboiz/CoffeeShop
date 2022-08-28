@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X.Vuong Coffee Shop</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/font/icon/themify-icons/themify-icons.css">
+    <link rel="shootcut icon" href="./assets/img/footer/Logo.png">
+
+    <!-- enble right click -->
+    
+    <script language="JavaScript">
+        window.onload = function() {
+            document.addEventListener("contextmenu", function(e) {
+                e.preventDefault();
+            }, false);
+            document.addEventListener("keydown", function(e) {
+                //document.onkeydown = function(e) {
+                // "I" key
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                    disabledEvent(e);
+                }
+                // "J" key
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                    disabledEvent(e);
+                }
+                // "S" key + macOS
+                if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                    disabledEvent(e);
+                }
+                // "U" key
+                if (e.ctrlKey && e.keyCode == 85) {
+                    disabledEvent(e);
+                }
+                // "F12" key
+                if (event.keyCode == 123) {
+                    disabledEvent(e);
+                }
+            }, false);
+    
+            function disabledEvent(e) {
+                if (e.stopPropagation) {
+                    e.stopPropagation();
+                } else if (window.event) {
+                    window.event.cancelBubble = true;
+                }
+                e.preventDefault();
+                return false;
+            }
+        };
+    </script>
+    
+</head>
+<body>
+    <!-- hero -->
+    <div id="hero">
+        <div class="bg-image">
+            <div class="retangle2"></div>
+            <div class="top-img"></div>
+            <div class="bot-img"></div>
+                
+            </div>  
+            <div class="img-hero">                
+                <div class="cafe">
+                    <div class="bg-cafe">
+                        <img src="./assets/img/bg-coffe-cup.png" alt="">
+                             <div class="cup-cafe">
+                                 <img src="./assets/img/coffe-cup.png" alt="">
+                         </div>                                        
+                </div>
+            </div>
+                <div class="name1">                    
+                    <div class="outshape1"></div>
+                        <div class="inshape1">
+                            <div class="textz1">
+                                <p><b>18K</b></p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="name2">                    
+                    <div class="outshape2"></div>
+                        <div class="inshape2">
+                            <div class="textz2">
+                                <p><b>Cappuccino</b></p>
+                             </div>
+                        </div>
+                    </div>
+                <div class="name3">                    
+                    <div class="outshape3"></div>
+                        <div class="inshape3">
+                            <div class="textz3">
+                                <p><b>4.8</b></p>
+                                <div class="star1">
+                                        <div class="shape-star">
+                                            <img src="./assets/img/Vector-Star.png" alt="">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+        <div class="content-hero">
+            <div class="slogan">
+                <p>Enjoy your <b>coffee</b> before your activity</p>
+            </div>
+            <div class="button-shopping">
+                <div class="shape-button-shopping">
+                    <img src="./assets/img/Ellipse 6.png" alt="">
+                    <i class="ti-shopping-cart"></i>
+                </div>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Order Now</a>
+            </div>
+            <div class="more-menu">
+                <a href="">More menu</a>
+            </div>
+            <div class="about-slogan">
+                <p>Boost your productivity and build your mood with a glass of coffee in the morning </p>
+            </div>
+        </div>
+    </div>
+    <!-- nav -->
+
+    <div id="nav">
+        <div class="logo">
+            <a href=""><img src="./assets/img/Logo.png" alt=""></a>
+        </div>
+        <div class="main-menu">
+            <ul>
+                <li id="text-one"><a href="#about">About us</a></li>
+                <li id="text-two"><a href="#menu">Our product</a></li>
+                <li id="text-three"><a href="#how-to">Delivery</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <div id="retangle1">
+                <i class="ti-search"></i>
+                <input type="text" placeholder="ca pu chi vuonq"/>
+            </div>
+        </div>
+        <div class="cart">
+            <a href=""><i class="ti-shopping-cart-full"></i></a>
+        </div>
+    </div>
+
+    <!-- /* popular_product */ -->
+     <div id="popular-product">
+         <div class="cards-popular-product">
+             <div class="bg-cards-popular-product"></div>
+                 <div class="card_product_1">
+                    <img src="./assets/img/card_product_1.png" alt="">
+                        <div class="body-card-1">
+                            <div class="frame-buy-1">
+                                <a href="">
+                                <i class="ti-shopping-cart"></i>
+                                </a>
+                            </div>
+                            <div class="frame-cold-1">
+                                <a href="">Cold</a>
+                            </div>
+                            <div class="frame-hot-1">
+                                <a href="">Hot</a>
+
+                            </div>
+                        </div>
+                 </div>
+                 <div class="card_product_2">
+                    <img src="./assets/img/card_product_2.png" alt="">
+                        <div class="body-card-2">
+                            <div class="frame-buy-2">
+                                <a href="">
+                                <i class="ti-shopping-cart"></i>
+                                </a>
+                            </div>
+                            <div class="frame-cold-2">
+                                <a href="">Cold</a>
+                            </div>
+                            <div class="frame-hot-2">
+                                <a href="">Hot</a>
+
+                            </div>
+                        </div>
+                 </div>
+                <div class="card_product_3">
+                    <img src="./assets/img/card_product_3.png" alt="">
+                        <div class="body-card-3">
+                            <div class="frame-buy-3">
+                                <a href="">
+                                <i class="ti-shopping-cart"></i>
+                                </a>
+                            </div>
+                            <div class="frame-cold-3">
+                                <a href="">Cold</a>
+                            </div>
+                            <div class="frame-hot-3">
+                                <a href="">Hot</a>
+
+                            </div>
+                        </div>
+                </div>
+            </div>
+         <div class="section-title">
+             <p>Popular Now</p>
+             <div class="retangle-section-title"></div>
+         </div>
+     </div>
+     <!-- how to-->
+        <div id="how-to">
+            <div class="section-title-howto">
+                <p>How to use delivery service</p>
+                <img src="./assets/img/img-how-to.png" alt="">
+            </div>
+            <div class="img-and-text-howto">
+                <div class="img-and-text-1">
+                    <div class="text-howto1">
+                        <div class="text1-1">
+                            <p>there are 20+ coffees for you</p>
+                        </div>
+                        <div class="text1-2">
+                            <p>choose your coffee</p>
+                        </div>
+                    </div>
+                    <div class="img-howto1">
+                        <img src="./assets/img/img-how-to-1.png" alt="">
+                    </div>
+                </div>
+                <div class="img-and-text-2">
+                    <div class="text-howto2">
+                        <div class="text2-1">
+                            <p>Choose delivery service</p>
+                        </div>
+                        <div class="text2-2">
+                            <p>we delivery it to you</p>
+                        </div>
+                    </div>
+                    <div class="img-howto2">
+                        <img src="./assets/img/img-how-to-2.png" alt="">
+                    </div>
+                </div>
+                <div class="img-and-text-3">
+                    <div class="text-howto3">
+                        <div class="text3-1">
+                            <p>Choose delivery service</p>
+                        </div>
+                        <div class="text3-2">
+                            <p>Enjoy your coffee</p>
+                        </div>
+                    </div>
+                    <div class="img-howto3">
+                        <img src="./assets/img/img-how-to-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!-- about -->
+        <div id="about">
+            <div class="bg-image-about"></div>
+            <div class="content-about">
+                <div class="p1"><p>We provide quality coffee, and ready to deliver.</p></div>
+                <div class="p2"><p>We are a company that makes and distributes delicious drinks. our main product is made with a secret recipe and available in stores worldwide.</p></div>
+                <div class="title-about">
+                    <div class="shape-foot-title">
+                        <img src="./assets/img/img-title-about.png" alt="">
+                    </div>
+                    <p>About us</p>
+                </div>
+                <div class="button-get_your_coffe-about">
+                    <a href="">Get your coffee</a>
+                </div>
+            </div>
+        </div>
+     <!-- menu -->
+        <div id="menu">
+            <div class="title-menu">
+                <div class="foot-title-menu"></div>
+                <p>Special menu for you</p>
+            </div>
+            <div class="cards-wrapper">
+                <div class="card-pro-1">
+                    <img src="./assets/img/img-big-menu/cake1.png" alt="">
+
+                    <div class="cart-menu-1">
+                        <a href=""><i class="ti-shopping-cart"></i></a>
+                    </div>
+
+                    <div class="text-card-big-menu-1">
+                        <div class="text-big-menu-1">
+                            <p>Sandwich</p>
+                        </div>
+                        <div class="text-big-menu-2">
+                            <p>12 K</p>
+                        </div>
+                        <div class="text-big-menu-3">
+                            <p>bread with meat and vegetables</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-pro-2">
+                    <img src="./assets/img/img-big-menu/cake2.png" alt="">
+
+                    <div class="cart-menu-1">
+                        <a href=""><i class="ti-shopping-cart"></i></a>
+                    </div>
+
+                    <div class="text-card-big-menu-1">
+                        <div class="text-big-menu-1">
+                            <p>Hot Milk</p>
+                        </div>
+                        <div class="text-big-menu-2">
+                            <p>14 K</p>
+                        </div>
+                        <div class="text-big-menu-3">
+                            <p>Hot Milk with less sugar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-pro-3">
+                    <img src="./assets/img/img-big-menu/cake3.png" alt="">
+
+                    <div class="cart-menu-1">
+                        <a href=""><i class="ti-shopping-cart"></i></a>
+                    </div>
+
+                    <div class="text-card-big-menu-1">
+                        <div class="text-big-menu-1">
+                            <p>Coffe Ice Cream</p>
+                        </div>
+                        <div class="text-big-menu-2">
+                            <p>18 K</p>
+                        </div>
+                        <div class="text-big-menu-3">
+                            <p>Coffe with ice cream vanilla</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-pro-4">
+                    <img src="./assets/img/img-big-menu/cake4.png" alt="">
+
+                    <div class="cart-menu-1">
+                        <a href=""><i class="ti-shopping-cart"></i></a>
+                    </div>
+
+                    <div class="text-card-big-menu-1">
+                        <div class="text-big-menu-1">
+                            <p>Cappucino</p>
+                        </div>
+                        <div class="text-big-menu-2">
+                            <p>18 K</p>
+                        </div>
+                        <div class="text-big-menu-3">
+                            <p>Hot Cappucino</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-pro-5">
+                    <img src="./assets/img/img-big-menu/cake5.png" alt="">
+
+                    <div class="cart-menu-1">
+                        <a href=""><i class="ti-shopping-cart"></i></a>
+                    </div>
+
+                    <div class="text-card-big-menu-1">
+                        <div class="text-big-menu-1">
+                            <p>Moccacino</p>
+                        </div>
+                        <div class="text-big-menu-2">
+                            <p>18 K</p>
+                        </div>
+                        <div class="text-big-menu-3">
+                            <p>Hot Moccacino </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-pro-6">
+                    <img src="./assets/img/img-big-menu/cake6.png" alt="">
+
+                    <div class="cart-menu-1">
+                        <a href=""><i class="ti-shopping-cart"></i></a>
+                    </div>
+
+                    <div class="text-card-big-menu-1">
+                        <div class="text-big-menu-1">
+                            <p>Waffle Ice Crem</p>
+                        </div>
+                        <div class="text-big-menu-2">
+                            <p>12 K</p>
+                        </div>
+                        <div class="text-big-menu-3">
+                            <p>bWafle with Ice cream</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!-- testimonial -->
+    <div id="testimonial">
+        <div class="bg-testimonial"></div>
+        <div class="content-testimonial">
+            <div class="p1"><p>What they say about us</p></div>
+            <div class="p2"><p>We always provide the best service and always maintain the quality of coffee</p></div>
+        </div>
+        <div class="card-testimonial">
+            <div class="card-testi_1">
+                <img src="./assets/img/testimonial/rv1.png" alt="">
+                <div class="card-testi-text-1">
+                    <div class="text-11"><p>I really love the cappucino, the coffee was very smooth</p></div>
+                    <div class="text-12"><p>Naura</p></div>
+                </div>
+            </div>
+            <div class="card-testi_2">
+                <img src="./assets/img/testimonial/rv2.png" alt="">
+                <div class="card-testi-text-1">
+                    <div class="text-21"><p>this coffee shop is very convenient</p></div>
+                    <div class="text-22"><p>John</p></div>
+                </div>
+            </div>
+            <div class="card-testi_3">
+                <img src="./assets/img/testimonial/rv3.png" alt="">
+                <div class="card-testi-text-3">
+                    <div class="text-31"><p>the coffee menu here is very much</p></div>
+                    <div class="text-32"><p>Azura</p></div>
+                </div>
+            </div>
+            <div class="bullet-testimonial">
+                <img src="./assets/img/testimonial/bullet.png" alt="">
+            </div>
+        </div>
+    </div>    
+
+     <!-- newsletter -->
+
+    <div id="newsletter">
+        <div class="bg-newsletter"></div>
+        <div class="title-newsletter">
+            <p>Subscribe to get 50% discount price</p>
+        </div>
+        <div class="form-input">
+            <div class="shape-input-newsletter"></div>
+            <input type="email" placeholder="Email address"/>
+            <a href="">Order Now</a>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="mylogo">
+             <img src="./assets/img/footer/xvuonq.png" alt="">
+        </div>
+        <div class="mycontact">
+            <div class="my-phone">
+                <i class="ti-tablet"></i>
+                <a href="tel:+84346524965">(+84) 346 524 965</a>
+            </div>
+            <div class="my-email">
+                <i class="ti-email"></i>
+                <a href="mailto:xuannvuongg@gmail.com">xuannvuongg@gmail.com</a>
+            </div>
+            <a href="https://www.facebook.com/stup1d.boiz/" target="_blank" rel="noopener"> 
+                <div class="myfb">
+                    <i class="ti-facebook"></i>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                <div class="myins">
+                    <i class="ti-instagram"></i>
+                </div>
+            </a>
+            <a href="https://github.com/" target="_blank" rel="noopener">
+                <div class="mygithub">
+                    <i class="ti-github"></i>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener"> 
+                <div class="myytb">
+                    <i class="ti-youtube"></i>
+                </div>
+            </a>
+        </div>
+        <div class="logo-cafe-footer">
+            <!-- <img src="./assets/img/footer/Logo.png" alt=""> -->
+        </div>
+    </div>
+     
+</body>
+</html>
