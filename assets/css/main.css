@@ -686,7 +686,7 @@ color: #2F2105;
 .bg-cards-popular-product  {
     position: absolute;
     width: 1268px;
-    height: 367px;
+    height: 364px;
     left: 0;
     bottom: 0;
 
@@ -695,108 +695,127 @@ color: #2F2105;
     background-image: url(../img/bg-card.png);
 }
 
+/* thẻ bán hàng 1 pp */
+
 .card_product_1 {
     position: absolute;
-    width: 355px;
-    height: 385px;
-    left: 50px;
-    top: 50px;
+    width: 390px;
+    height: 415px;
+    top: 70px;
+    left: 55px;
+    background-image: url(../img/img-big-menu/1.png);
 
-    filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
+    display: block;
+
 }
+
+.card_product_1 img {
+    position: absolute;
+    width: 307.86px;
+    height: 226px;
+    left: 40px;
+    top: 35px;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+.card_product_1 img:hover {
+    transform: scale(1.01);
+    opacity: 0.8;
+}
+
+/* thẻ bán hàng 2 pp */
 .card_product_2 {
     position: absolute;
-    width: 355px;
-    height: 385px;
-    left: 435px;
-    top: 50px;
+    width: 390px;
+    height: 415px;
+    top: 70px;
+    left: 443px;
+    background-image: url(../img/img-big-menu/1.png);
 
-    filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
+    display: block;
+
 }
+
+.card_product_2 img {
+    position: absolute;
+    width: 307.86px;
+    height: 226px;
+    left: 40px;
+    top: 35px;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+.card_product_2 img:hover {
+    transform: scale(1.01);
+    opacity: 0.8;
+}
+
+/* thẻ bán hàng 3 pp */
 .card_product_3 {
     position: absolute;
-    width: 355px;
-    height: 385px;
-    right: 95px;
-    top: 50px;
+    width: 390px;
+    height: 415px;
+    top: 70px;
+    left: 830px;
+    background-image: url(../img/img-big-menu/1.png);
 
-    filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
-    }
+    display: block;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* thẻ bán hàng 1 */
-
-.body-card-1 {
-    position: absolute;
-    width: 281px;
-    height: 85px;
-    left: 57px;
-    top: 305px;
-
-    /* background-color: red; */
 }
 
-.frame-buy-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
+.card_product_3 img {
     position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 235px;
-    top: 44px;
-    background: #FF912B;
-    border-radius: 64px;
+    width: 307.86px;
+    height: 226px;
+    left: 40px;
+    top: 35px;
+
+    transition: all 0.3s ease-in-out;
+
 }
 
-.frame-buy-1 i {
-    position: absolute;
-    font-size: 30px;
-    top: 10px;
-    left: 8px;
-    color: #FFFFFF;
+.card_product_3 img:hover {
+    transform: scale(1.01);
+    opacity: 0.8;
 }
 
-.frame-cold-1 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.frame-cold {
     box-sizing: border-box;
-
-/* Auto layout */
 
     display: flex;
     flex-direction: row;
@@ -808,15 +827,14 @@ color: #2F2105;
     position: absolute;
     width: 64px;
     height: 32px;
-    left: 95px;
-    top: 50px;
+    left: 120px;
+    top: 333px;
 
     border: 2px solid #FFD28F;
     border-radius: 8px;
 }
 
-.frame-cold-1 a {
-    /* Cold */
+.frame-cold a {
 
 
     width: 40px;
@@ -827,7 +845,6 @@ color: #2F2105;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
 
     display: flex;
     align-items: center;
@@ -837,7 +854,6 @@ color: #2F2105;
     color: #FFD28F;
 
 
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -846,10 +862,9 @@ color: #2F2105;
     text-decoration: none;
 }
 
-.frame-hot-1 {
+.frame-hot {
     box-sizing: border-box;
 
-/* Auto layout */
 
     display: flex;
     flex-direction: row;
@@ -861,16 +876,14 @@ color: #2F2105;
     position: absolute;
     width: 64px;
     height: 32px;
-    left: 0;
-    top: 50px;
-
-    /* Primary */
+    left: 40px;
+    top: 333px;
 
     border: 2px solid #FF912B;
     border-radius: 8px;
 }
 
-.frame-hot-1 a {
+.frame-hot a {
     /* Hot */
 
 
@@ -882,334 +895,15 @@ color: #2F2105;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
 
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
 
-    /* Primary */
 
     color: #FF912B;
 
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    text-decoration: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* thẻ bán hàng 2 */
-.body-card-2 {
-    position: absolute;
-    width: 281px;
-    height: 85px;
-    left: 57px;
-    top: 305px;
-
-    /* background-color: red; */
-}
-
-.frame-buy-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 235px;
-    top: 44px;
-    background: #FF912B;
-    border-radius: 64px;
-}
-
-.frame-buy-2 i {
-    position: absolute;
-    font-size: 30px;
-    top: 10px;
-    left: 8px;
-    color: #FFFFFF;
-}
-
-.frame-cold-2 {
-    box-sizing: border-box;
-
-/* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-
-    position: absolute;
-    width: 64px;
-    height: 32px;
-    left: 95px;
-    top: 50px;
-
-    border: 2px solid #FFD28F;
-    border-radius: 8px;
-}
-
-.frame-cold-2 a {
-    /* Cold */
-
-
-    width: 40px;
-    height: 24px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-
-    color: #FFD28F;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    text-decoration: none;
-}
-
-.frame-hot-2 {
-    box-sizing: border-box;
-
-/* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-
-    position: absolute;
-    width: 64px;
-    height: 32px;
-    left: 0;
-    top: 50px;
-
-    /* Primary */
-
-    border: 2px solid #FF912B;
-    border-radius: 8px;
-}
-
-.frame-hot-2 a {
-    /* Hot */
-
-
-    width: 30px;
-    height: 24px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-
-    /* Primary */
-
-    color: #FF912B;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    text-decoration: none;
-}
-
-
-
-
-
-
-
-
-
-/* thẻ bán hàng 3 */
-
-.body-card-3 {
-    position: absolute;
-    width: 281px;
-    height: 85px;
-    left: 57px;
-    top: 305px;
-
-    /* background-color: red; */
-}
-
-.frame-buy-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 235px;
-    top: 44px;
-    background: #FF912B;
-    border-radius: 64px;
-}
-
-.frame-buy-3 i {
-    position: absolute;
-    font-size: 30px;
-    top: 10px;
-    left: 8px;
-    color: #FFFFFF;
-}
-
-.frame-cold-3 {
-    box-sizing: border-box;
-
-/* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-
-    position: absolute;
-    width: 64px;
-    height: 32px;
-    left: 95px;
-    top: 50px;
-
-    border: 2px solid #FFD28F;
-    border-radius: 8px;
-}
-
-.frame-cold-3 a {
-    /* Cold */
-
-
-    width: 40px;
-    height: 24px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-
-    color: #FFD28F;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    text-decoration: none;
-}
-
-.frame-hot-3 {
-    box-sizing: border-box;
-
-/* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-
-    position: absolute;
-    width: 64px;
-    height: 32px;
-    left: 0;
-    top: 50px;
-
-    /* Primary */
-
-    border: 2px solid #FF912B;
-    border-radius: 8px;
-}
-
-.frame-hot-3 a {
-    /* Hot */
-
-
-    width: 30px;
-    height: 24px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-
-    /* Primary */
-
-    color: #FF912B;
-
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -1227,6 +921,17 @@ color: #2F2105;
 
     /* background-color: red; */
 }
+
+/* hover hot cold thẻ */
+.frame-cold:hover {
+    background-color: rgba(0, 187, 255, 0.3);
+    transition: 0,25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.frame-hot:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+    transition: 0,25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 
 .section-title p {
     position: absolute;
@@ -1261,57 +966,13 @@ color: #2F2105;
     border-radius: 12px;
     }
 
-
-
-/* hover hot cold 3 thẻ */
-/* 1 */
-.frame-buy-1:hover {
-    background-color: #c48142;
-    transition: 0,25s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.frame-cold-1:hover {
-    background-color: rgba(252, 155, 11, 0.1);
-    transition: 0,25s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.frame-hot-1:hover{
-    background-color: rgba(252, 155, 11, 0.1);
-    transition: 0,25s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-/* 2 */
-.frame-buy-2:hover {
-    background-color: #c48142;
-    transition: 0,25s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.frame-cold-2:hover {
-    background-color: rgba(252, 155, 11, 0.1);
-    transition: 0,25s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.frame-hot-2:hover {
-    background-color: rgba(252, 155, 11, 0.1);
-    transition: 0,25s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-/* 3 */
-.frame-buy-3:hover {
-    background-color: #c48142;  
-    transition: 0,25s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.frame-cold-3:hover {
-    background-color: rgba(252, 155, 11, 0.1);
-    transition: 0,25s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.frame-hot-3:hover {
-    background-color: rgba(252, 155, 11, 0.1);  
-    transition: 0,25s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
 /* how to */
 #how-to {
     position: absolute;
     width: 1170px;
     height: 582px;
-    left: 180px;
-    top: 1269px;
+    left: 30px;
+    top: 680px;
 
     /* background-color: #f27d7d; */
 }
@@ -1556,9 +1217,9 @@ color: #2F2105;
 
 .text3-1 {
     position: absolute;
-    width: 229px;
+    width: 295px;
     height: 27px;
-    left: 98px;
+    left: 45px;
     top: 236px;
 
     font-family: 'Poppins';
@@ -1603,8 +1264,8 @@ color: #2F2105;
     position: absolute;
     width: 1489.18px;
     height: 572px;
-    left: -25px;
-    top: 1827px;
+    left: -170px;
+    top: 1400px;
 }
 
 .bg-image-about {
@@ -1754,8 +1415,8 @@ color: #2F2105;
     position: absolute;
     width: 1165px;
     height: 1000px;
-    left: 180px;
-    top: 2519px;
+    left: 30px;
+    top: 2100px;
 
     /* background-color: brown; */
 
@@ -2101,8 +1762,8 @@ color: #2F2105;
     position: absolute;
     width: 1519px;
     height: 484px;
-    left: 0px;
-    top: 3675px;
+    left: -130px;
+    top: 3250px;
 
     /* background-color: crimson; */
 }
@@ -2425,8 +2086,8 @@ color: #2F2105;
     position: absolute;
     width: 1519px;
     height: 392px;
-    left: 0;
-    top: 4211px;
+    left: -130px;
+    top: 3860px;
     margin-bottom: 60px;
     
     /* background-color: #000000; */
@@ -2550,8 +2211,8 @@ color: #2F2105;
     position: absolute;
     width: 1519px;
     height: 300px;
-    left: 0;
-    top: 4664px;
+    left: -130px;
+    top: 4390px;
 
     background-color: #111111;
 }
